@@ -1,0 +1,78 @@
+.card {
+  width: 250px;
+  height: 200px;
+  background-color: #e6e6e9;
+  box-shadow: 0 6px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header h3 {
+  display: flex;
+  font-size: 25px;
+  margin: 0;
+  padding: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-header h4 {
+  display: flex;
+  margin: 0;
+  color: grey;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 1px;
+}
+
+.featured-users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.livestatus {
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-left: 40px;
+  margin-top: 15px;
+  display: flex;
+  margin-left: 70px;
+}
+
+.livestatushover {
+  transform: scale(1.05);
+  box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12),
+    0 8px 32px -8px hsla(0, 0%, 0%, 0.14),
+    0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
+}

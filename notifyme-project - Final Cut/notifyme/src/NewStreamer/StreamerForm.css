@@ -1,0 +1,60 @@
+.new-streamer__controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.new-streamer__control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-streamer__control input {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.new-streamer__actions {
+  text-align: right;
+}
+
+.new-streamer__control select {
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 20rem;
+  max-width: 100%;
+  appearance: none; /* remove default styling */
+}
+
+.new-streamer__control select option {
+  padding: 0.5rem;
+  font-size: 14px;
+  color: #333;
+}
+
+.new-streamer__control select:hover {
+  border-color: #555;
+}
+
+.new-streamer__control select::after {
+  content: "🠞";
+  font-size: 1.2em;
+  padding-left: 0.5rem;
+  pointer-events: none;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+
+.new-streamer__control select {
+  position: relative; /* required for ::after */
+}

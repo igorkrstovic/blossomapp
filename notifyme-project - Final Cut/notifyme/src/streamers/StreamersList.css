@@ -1,0 +1,13 @@
+.streamers-list {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  align-items: center;
+  justify-content: 5px space-between;
+  list-style: none;
+  margin: auto;
+}
+
+.streamers-list__fallback {
+  color: white;
+  text-align: center;
+}

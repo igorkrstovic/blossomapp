@@ -1,0 +1,40 @@
+.new-streamer {
+  background-color: #6441a5;
+  padding: 0.5rem;
+  width: 41%;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  margin-left: 30%;
+  margin-top: 1%;
+}
+
+.new-streamer button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 12px;
+  margin-right: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-streamer button:hover,
+.new-streamer button:active {
+  background-color: #845c99;
+  border-color: #ffffff;
+}
+
+.new-streamer button.alternative {
+  color: #220131;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.new-streamer button.alternative:hover,
+.new-streamer button.alternative:active {
+  background-color: #41a596;
+}
